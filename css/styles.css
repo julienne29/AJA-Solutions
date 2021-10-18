@@ -1,0 +1,316 @@
+/* Global Setting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styling */
+body {
+  font-family: "Comfortaa", cursive;
+  background-color: black;
+}
+/* header css */
+.mainmenu {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+.mainmenu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.mainmenu ul li {
+  font-size: smaller;
+}
+.mainmenu .logo {
+  height: 60px;
+}
+.mainmenu .content-1 a {
+  text-decoration: none;
+  color: white;
+  padding: 0.75rem;
+}
+.mainmenu .content-1 a:hover {
+  color: #f58550;
+}
+.mainmenu .content-1 a:active {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+#container1 {
+  margin: auto;
+  max-width: 1000px;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color:rgba(08, 20, 32, 0.4);
+}
+/* end of header */
+/* start of homepage */
+#homepage {
+  height: 100vh;
+  background: url(../images/backgrounds/project\ background_.jpg) no-repeat center center/cover;
+}
+#homepage .web {
+  padding-top: 50px;
+}
+#homepage .web .webdesign {
+  margin: auto;
+  max-width: 1000px;
+  margin-top: 150px;
+  font-family: "Archivo Black", sans-serif;
+  color: #cecece;
+}
+.web .webdesign h1 {
+  font-size: 80px;
+  line-height: 70px;
+}
+
+.web .webdesign .Web-1a {
+  color: #4c4c4c;
+  line-height: 40px;
+  font-size: 60px;
+}
+.web .webdesign .Web-1b {
+  margin-bottom: 10px;
+}
+.dot {
+  color: #f58550;
+}
+.web .webdesign .btn {
+  font-family: "Comfortaa", cursive;
+  padding: 7px 20px;
+  border-radius: 10px;
+  background-color: #f58550;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/* about page */
+#aboutpage {
+  height: 700px;
+  background: url(../images/backgrounds/project\ background_.jpg) no-repeat center center/cover;
+}
+#aboutpage .containtitle {
+  padding-top: 60px;
+}
+.about-title {
+  color: #f58550;
+  text-align: center;
+  font-size: 25px;
+  margin: 40px 40px;
+}
+.profile {
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(08, 20, 32, 0.6);
+  max-width: 1000px;
+  color: #e0e0e0;
+}
+.profile img {
+  height: 250px;
+  width: 250px;
+  margin-right: 70px;
+  margin-bottom: 100px;
+}
+.profile1 p {
+  font-size: 15px;
+  margin: 10px 0px;
+}
+}
+.profile1 .aboutdetails .name {
+  margin-bottom: 20px;
+}
+.profile1 .aboutdetails p {
+  width: 500px;
+}
+.profile1 .aboutdetails span {
+  color: #f58550;
+}
+/* about page grid */
+#mainbox .margin h4 {
+  margin-bottom: 30px;
+}
+#mainbox h3 {
+  color: #f58550;
+  padding: 5px 0;
+}
+
+#mainbox .box1,
+.box2,
+.box3,
+.box4 {
+  margin-left: 0;
+  margin-right: 20px;
+  width: 250px;
+  display: inline-block;
+}
+#mainbox .box5 {
+  width: 400px;
+  text-align: center;
+}
+.icon {
+  color: #f58550;
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+.icon i {
+  padding: 5px;
+  margin-top: 15px;
+}
+/* Projects section */
+#project {
+  margin: 0;
+  padding: 0;
+  background: url(../images/backgrounds/project\ background_.jpg) no-repeat center center/cover;
+  height: 700px;
+}
+#project .project-spacing {
+  padding-top: 90px;
+  margin: auto;
+  max-width: 1000px;
+}
+#project .project-spacing h2 {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+#project .project-title {
+  color: #f58550;
+  text-align: center;
+  font-size: 25px;
+}
+#project .images h2 {
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+#project .project-spacing .images {
+  display: flex;
+  justify-content: center;
+}
+.images .frame1 {
+  height: 200px;
+  width: 200px;
+  padding-top: 85px;
+  border: 0 solid black;
+  border-radius: 15px;
+  background: url("../images/CODES.jpg") no-repeat center center/cover;
+  margin: 0 20px;
+}
+.images .frame2 {
+  height: 200px;
+  width: 200px;
+  padding-top: 85px;
+  border: 0 solid black;
+  border-radius: 15px;
+  background: url("../images/FOOD.jpg") no-repeat center center/cover;
+  margin: 0 20px;
+}
+#project .images .frame3 {
+  height: 200px;
+  width: 200px;
+  padding-top: 85px;
+  border: 0 solid black;
+  border-radius: 15px;
+  background: url("../images/FASHION.jpg") no-repeat center center/cover;
+  margin: 0 20px;
+}
+#project .images-below {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+#project .images-below h2 {
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+#project .images-below .frame4 {
+  height: 200px;
+  width: 200px;
+  padding-top: 50px;
+  border: 0 solid black;
+  border-radius: 15px;
+  background: url("../images/SunSET.jpg") no-repeat center center/cover;
+  margin: 0 20px;
+}
+#project .images-below .frame5 {
+  height: 200px;
+  width: 200px;
+  padding-top: 85px;
+  border: 0 solid black;
+  border-radius: 15px;
+  background: url("../images/CAR.jpg") no-repeat center center/cover;
+  margin: 0 20px;
+}
+.project-spacing .f1:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: default;
+}
+.project-spacing .f1:active {
+  text-decoration-line: underline;
+  text-decoration-color: #f58550;
+  cursor: pointer;
+}
+#footer{
+    background-color: #f58550;
+    color: #fff;
+    height: 300px;
+}
+#footer .contact{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+#footer .flex-footer{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .flex-footer .fo{
+    display: flex;
+    margin: 30px;
+    line-height: 20px;
+}
+#footer .flex-footer .fo i{
+    margin: 0 10px; 
+    
+}
+#footer .btn{
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+#footer .btn h4{
+    font-size: smaller;
+    background-color: #fff;
+    color: #f58550;
+    padding: 10px 20px;
+    border-radius: 5px;
+   display: inline;
+}
+
+#footer .btn h4:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#footer .btn h4:active{
+    color: #fff;
+}
+.animate__slideInLeft{
+    --animate-duration: 2s;
+}
+.animate__slideInRight{
+    --animate-duration: 2s;
+}
+.animate__delay{
+    --animate-duration: 2s;
+}
